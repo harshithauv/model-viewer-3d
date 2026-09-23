@@ -5,6 +5,16 @@ models onto one screen at once, each in its own independently
 draggable/resizable/rotatable/zoomable container, with part labels read
 from the model's own glTF `extras.prop`.
 
+## Screenshots
+
+| Empty state | Add Model | Multiple models |
+|---|---|---|
+| ![Empty state](screenshots/01_empty_state.png) | ![Add Model sheet](screenshots/02_add_model.png) | ![Multiple models loaded](screenshots/03_multiple_models.png) |
+
+| Rotation (Interaction Mode) | Launcher icon |
+|---|---|
+| ![Rotating a model](screenshots/04_rotation.png) | ![Launcher icon](screenshots/05_launcher_icon.png) |
+
 ## Launcher icon
 
 A custom adaptive launcher icon replaces the previous placeholder
