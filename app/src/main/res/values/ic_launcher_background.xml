@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Matches the app's own dark navy theme (see themes.xml / AppColors.kt)
+         so the launcher icon reads as part of the same visual identity. -->
+    <color name="ic_launcher_background">#0A0E17</color>
+</resources>

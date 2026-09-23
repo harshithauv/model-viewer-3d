@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Launcher icon foreground: an isometric 3D cube (the "3D model") sitting
+    inside an orbit ring with a small motion accent (the "rotation/viewer"
+    part) - no text, per the request. Drawn on the standard 108x108
+    adaptive-icon viewport with every point kept close to the ~66dp safe
+    zone around the center (54,54) so nothing identifying gets cropped by
+    a launcher's own mask shape (circle, squircle, rounded square, etc.).
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Orbit ring - drawn first so the cube sits visually on top of it. -->
+    <path
+        android:pathData="M20,58 A34,15 0 1,1 88,58 A34,15 0 1,1 20,58 Z"
+        android:strokeColor="#93C5FD"
+        android:strokeWidth="3"
+        android:strokeAlpha="0.85"
+        android:fillColor="#00000000" />
+
+    <!-- Small motion/rotation accent riding the ring. -->
+    <path
+        android:pathData="M82,64 L93,68 L84,75 Z"
+        android:fillColor="#93C5FD" />
+
+    <!-- Cube top face -->
+    <path
+        android:pathData="M54,26 L76,39 L54,52 L32,39 Z"
+        android:fillColor="#93C5FD" />
+
+    <!-- Cube left face -->
+    <path
+        android:pathData="M32,39 L54,52 L54,78 L32,65 Z"
+        android:fillColor="#3B82F6" />
+
+    <!-- Cube right face -->
+    <path
+        android:pathData="M54,52 L76,39 L76,65 L54,78 Z"
+        android:fillColor="#1E40AF" />
+</vector>
